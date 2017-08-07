@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*colores básicos son:
+    rojo: rgb(163,65,103)
+    verde: rgb(231,219,95)
+
+ background: linear-gradient(90deg,rgb(163,65,103),rgb(231,219,95));
+*/
+body{
+    color: #333;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 90%;
+    
+    margin: 2em auto;
+    background: linear-gradient(to bottom right,rgba(163,65,103,0.3),rgba(163,65,103,1));
+    border: solid 0.5em #333;
+}
+.principal{
+    width: 79%;
+    display: inline-block;
+}
+.imagen{
+    width: 19%;
+    display: inline-block;
+    border: solid 2px #333;
+    overflow: hidden;
+    
+}
+.imagen img{
+    width: 100%;
+}
+
+.datos{
+    width: 49%;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.3)
+}
+.datos ul{
+    list-style: none;
+}
+.cata{
+    width: 49%;
+    display: inline-block;
+}
+.iconos{
+    width: 15%;
+    display: inline-block;
+}
+.texto{
+    width: 79%;
+    display: inline-block;
+    line-height: 2.5;
+    position: relative;
+    bottom: 8px;
+}
